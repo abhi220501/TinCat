@@ -1,0 +1,166 @@
+#title {
+  background-color: #480032;
+  color: #fff;
+}
+
+.hi {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 4.8rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Download button */
+.downbtn {
+  margin: 10% 3% 10% 0;
+  font-weight: 500;
+}
+
+/* title image */
+.title-image {
+  width: 53%;
+  border-radius: 12%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* features */
+#features {
+  padding: 5% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.fas {
+  background-color: #480032;
+}
+
+p {
+  color: grey;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin: 1rem;
+  color: #6a097d;
+}
+
+.icon:hover {
+  color: #480032;
+}
+
+/* testimonials */
+.happycat {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #6a097d;
+  color: white;
+}
+
+#press {
+  background-color: #6a097d;
+  text-align: center;
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+@media (max-width:990px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* last download */
+#cta {
+  background-color: #480032;
+  color: white;
+  text-align: center;
+  padding: 8%;
+}
+
+.kinda {
+  margin: 4rem 2rem 2rem;
+  font-weight: 500;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 3%;
+}
+
+.last {
+  margin: 10px 10px;
+}
